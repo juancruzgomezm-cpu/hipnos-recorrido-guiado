@@ -1,0 +1,52 @@
+name: Publish Hipnos guided tour
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Import exact original assets on first publication
+        run: |
+          if [ ! -f assets/models/hipnos.glb.gz.part1 ]; then
+            git clone --no-checkout https://github.com/juancruzgomezm-cpu/hipnos-web.git "$RUNNER_TEMP/hipnos-original"
+            git -C "$RUNNER_TEMP/hipnos-original" checkout 0b3b531f6475edd60d619f1fd4044b750496a622
+            node scripts/import-assets.mjs "$RUNNER_TEMP/hipnos-original"
+            git add assets
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Preserve independent copies of original Hipnos assets'
+            git push origin HEAD:main
+          else
+            node scripts/import-assets.mjs .
+          fi
+      - run: npm ci
+      - run: npm run check
+      - run: npm run build
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

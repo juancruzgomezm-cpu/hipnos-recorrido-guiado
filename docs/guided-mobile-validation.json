@@ -1,0 +1,18 @@
+{
+  "method": "Chrome CSS/DOM fixtures using actual tour content; GPU unavailable",
+  "viewports": [
+    [
+      390,
+      844
+    ],
+    [
+      375,
+      667
+    ]
+  ],
+  "chaptersPerViewport": 8,
+  "horizontalOverflow": false,
+  "copyOverlapsFooter": false,
+  "gpuRenderingVerified": false,
+  "physicalIPhoneVerified": false
+}

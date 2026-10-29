@@ -1,0 +1,19 @@
+{
+  "name": "hipnos-recorrido-guiado",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "three": "0.170.0",
+    "fflate": "0.8.2",
+    "qrcode": "1.5.4"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.0",
+    "happy-dom": "16.8.1"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "kind": "CPU/DOM integration with original GLB; not a GPU test",
+  "sourceSHA256": "f5625fda29566a6a1497844224fc3395f5f93694fc8854d54e2e8b1d5e804df1",
+  "modelBytes": 45811460,
+  "originalMeshes": 29,
+  "steps": [
+    {
+      "index": 0,
+      "id": "welcome",
+      "mode": "general",
+      "detail": "",
+      "copyHTML": "<section aria-atomic=\"true\" aria-live=\"polite\" id=\"tour-copy\" aria-busy=\"false\" class=\"\"><p id=\"tour-eyebrow\">Una nueva forma de descansar</p><h1 id=\"tour-title\">Dos microclimas.\nUn mejor descanso.</h1><p id=\"tour-text\">Conocé Hipnos, paso a paso. Un cubrecolchón térmico y un Hub que permiten regular cada lado de la cama de forma independiente.</p><div aria-live=\"off\" id=\"tour-detail\"></div><p id=\"tour-note\">Una experiencia guiada en ocho etapas.</p></section>"
+    },
+    {
+      "index": 1,
+      "id": "thermal",
+      "mode": "thermal",
+      "detail": "IZQUIERDO / DERECHO26 °C  /  18 °CUn ajuste independiente para cada lado.",
+      "copyHTML": "<section aria-atomic=\"true\" aria-live=\"polite\" id=\"tour-copy\" aria-busy=\"false\" class=\"\"><p id=\"tour-eyebrow\">01 / Tu lado, tu temperatura</p><h1 id=\"tour-title\">Compartir la cama.\nElegir tu microclima.</h1><p id=\"tour-text\">Dos circuitos independientes permiten representar distintas temperaturas en cada lado, entre 16 y 28 °C.</p><div aria-live=\"off\" id=\"tour-detail\" data-temps=\"26 °C  /  18 °C\"><span>IZQUIERDO / DERECHO</span><strong>26 °C  /  18 °C</strong><p>Un ajuste independiente para cada lado.</p></div><p id=\"tour-note\">Simulación visual. No controla un dispositivo físico.</p></section>"
+    },
+    {
+      "index": 2,
+      "id": "layers",
+      "mode": "layers",
+      "detail": "CAPA 4 DE 4Base textil100 % poliéster · La base sostiene las capas y aporta estabilidad al cubrecolchón sobre el colchón.",
+      "copyHTML": "<section aria-atomic=\"true\" aria-live=\"polite\" id=\"tour-copy\" aria-busy=\"false\" class=\"\"><p id=\"tour-eyebrow\">02 / El cover, por dentro</p><h1 id=\"tour-title\">Cuatro capas.\nUna experiencia.</h1><p id=\"tour-text\">El despiece del visor original revela cómo conviven la superficie textil, el acolchado, el sistema térmico y la base.</p><div aria-live=\"off\" id=\"tour-detail\"><span>CAPA 4 DE 4</span><strong>Base textil</strong><p>100 % poliéster · La base sostiene las capas y aporta estabilidad al cubrecolchón sobre el colchón.</p></div><p id=\"tour-note\">La capa destacada cambia automáticamente.</p></section>"
+    },
+    {
+      "index": 3,
+      "id": "water",
+      "mode": "general",
+      "detail": "SUMINISTRO + RETORNODos circuitos separadosEl agua circula desde el Hub hacia el cover y regresa a su depósito.",
+      "copyHTML": "<section aria-atomic=\"true\" aria-live=\"polite\" id=\"tour-copy\" aria-busy=\"false\" class=\"\"><p id=\"tour-eyebrow\">03 / El agua conecta todo</p><h1 id=\"tour-title\">Un recorrido de ida.\nY otro de vuelta.</h1><p id=\"tour-text\">Seguí el suministro y el retorno de agua entre el Hub y los dos lados del cover. Las conexiones llegan por detrás de la cama.</p><div aria-live=\"off\" id=\"tour-detail\"><span>SUMINISTRO + RETORNO</span><strong>Dos circuitos separados</strong><p>El agua circula desde el Hub hacia el cover y regresa a su depósito.</p></div><p id=\"tour-note\">Animación explicativa de los circuitos hidráulicos.</p></section>"
+    },
+    {
+      "index": 4,
+      "id": "hub",
+      "mode": "hub",
+      "detail": "COMPONENTE 2 DE 10Depósito divididoDos cámaras estancas mantienen separados los volúmenes de agua.",
+      "copyHTML": "<section aria-atomic=\"true\" aria-live=\"polite\" id=\"tour-copy\" aria-busy=\"false\" class=\"\"><p id=\"tour-eyebrow\">04 / El corazón de Hipnos</p><h1 id=\"tour-title\">La tecnología,\na la vista.</h1><p id=\"tour-text\">El interior se abre para mostrar los componentes y su relación dentro de cada circuito.</p><div aria-live=\"off\" id=\"tour-detail\"><span>COMPONENTE 2 DE 10</span><strong>Depósito dividido</strong><p>Dos cámaras estancas mantienen separados los volúmenes de agua.</p></div><p id=\"tour-note\">Arquitectura interna ilustrativa del proyecto original.</p></section>"
+    },
+    {
+      "index": 5,
+      "id": "remote",
+      "mode": "general",
+      "detail": "CONTROL POR RADIOFRECUENCIA26 °C  /  18 °CLos valores corresponden a esta demostración.",
+      "copyHTML": "<section aria-atomic=\"true\" aria-live=\"polite\" id=\"tour-copy\" aria-busy=\"false\" class=\"\"><p id=\"tour-eyebrow\">05 / Control RF</p><h1 id=\"tour-title\">Dos lados.\nUn control.</h1><p id=\"tour-text\">La representación del control RF muestra los ajustes de cada lado. La regulación se realiza de manera independiente.</p><div aria-live=\"off\" id=\"tour-detail\"><span>CONTROL POR RADIOFRECUENCIA</span><strong>26 °C  /  18 °C</strong><p>Los valores corresponden a esta demostración.</p></div><p id=\"tour-note\">Representación funcional incluida en el visor original.</p></section>"
+    },
+    {
+      "index": 6,
+      "id": "sizes",
+      "mode": "general",
+      "detail": "MEDIDAS COMERCIALESQueen1,60 × 2,00 mDos plazas · 1,40 × 1,90 mQueen · 1,60 × 2,00 mKing · 2,00 × 2,00 m",
+      "copyHTML": "<section aria-atomic=\"true\" aria-live=\"polite\" id=\"tour-copy\" aria-busy=\"false\" class=\"\"><p id=\"tour-eyebrow\">06 / Tu medida</p><h1 id=\"tour-title\">El mismo sistema.\nEn tres tamaños.</h1><p id=\"tour-text\">El recorrido presenta automáticamente las tres medidas comerciales. El Hub conserva sus proporciones.</p><div aria-live=\"off\" id=\"tour-detail\"><span>MEDIDAS COMERCIALES</span><strong>Queen</strong><p>1,60 × 2,00 m</p><div class=\"size-list\"><span class=\"\">Dos plazas · 1,40 × 1,90 m</span><span class=\"active\">Queen · 1,60 × 2,00 m</span><span class=\"\">King · 2,00 × 2,00 m</span></div></div><p id=\"tour-note\">Adaptación dimensional del modelo original; no son CAD de fabricación.</p></section>"
+    },
+    {
+      "index": 7,
+      "id": "end",
+      "mode": "general",
+      "detail": "",
+      "copyHTML": "<section aria-atomic=\"true\" aria-live=\"polite\" id=\"tour-copy\" aria-busy=\"false\" class=\"\"><p id=\"tour-eyebrow\">07 / El descanso, a tu manera</p><h1 id=\"tour-title\">Dos microclimas.\nUn mejor descanso.</h1><p id=\"tour-text\">Un sistema compartido, dos lados independientes. Así es Hipnos by Piero.</p><div aria-live=\"off\" id=\"tour-detail\"></div><p id=\"tour-note\">Fin del recorrido. Podés volver sobre cada etapa.</p></section>"
+    }
+  ],
+  "gpuBrowserVerified": false,
+  "physicalIPhoneVerified": false,
+  "geometryPreserved": true,
+  "forwardBackRestart": true,
+  "noSkippedSteps": true
+}
